@@ -1,8 +1,8 @@
 class SuperCar{
-    int maxSpeed = 100;
+    protected int maxSpeed = 100;
 }
 class SubCar extends SuperCar{
-    int maxSpeed = 180;
+   protected  int maxSpeed = 180;
     public void showSpeed(){
         System.out.println("MaxSpeed: "+maxSpeed);
     }
